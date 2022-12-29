@@ -49,6 +49,8 @@ h1{
 #titulo{
   font-size: 67px;
   margin-top:45px;
+  font-weight:normal;
+  margin-left: 5px;
 }
 
 .footer{

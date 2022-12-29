@@ -1,5 +1,13 @@
 import React from "react";
-
+import Header from "./Header.js";
+import Footer from "./Footer.js"
+import Categorias from "./Categorias.js";
 export default function Vista2(){
-    return();
+    return(
+        <React.Fragment>
+            <Header />
+            <Categorias/>
+            <Footer />
+        </React.Fragment>
+    );
 }
