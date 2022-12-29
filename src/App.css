@@ -1,30 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap'); 
+
 .header{
   background-image: url("/src/img/header.png");
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  background-position: -700px 0px;
+  height: 125px;
+  
+}
+.circuloAmarillo{
+  position:relative;
+  background-color: #FCDD09;
+  width: 65px;
+  height: 65px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  align-self: right;
+  margin-top: -10px;
+  z-index: 0;
+}
+.circuloVioleta{
+  position:absolute;
+  z-index: 1;
+  background-color: #742C64;
+  color:white;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin-top:45px;
+  margin-left: 91vw;
+}
+
+.car1{
+  margin-top: 15px;
+  margin-left: 6px;
+  height:40px;
+  width:47px;
+  background-position:center;
 }
 h1{
   color:white;
-  font-family: 'Italianno', cursive;
+  font-family: 'Italianno',regular;
 }
-.header{
-  
+#titulo{
+  font-size: 67px;
+  margin-top:45px;
 }
+
 .footer{
   background-color: #FCDD09;
   text-align: center;
   font-family: 'Inter', sans-serif;
+  display:flex;
+  justify-content: space-around;
+  
 
 }
+.btn{
+  background-color: Transparent;
+  border: none;
 
+}
+.inicio{
+    
+    height:55px;
+    width:64px;
+    background-position:center;
+    
+}
+.instrumentos{
+
+  height:59px;
+  width:59px;
+  background-position:center;
+}
+.car{
+  margin-top: 5px;
+  margin-left: -7px;
+  height:50px;
+  width:57px;
+  background-position:center;
+}
+.textoboton{
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+}
 .body {
   text-align: center;
   font-family: 'Inter', sans-serif;
+  margin-bottom:10px;
+  margin-top: -10px;;
 
+}
+p {
+  font-family: 'Inter', bold;
+  font-size:18px;
+  text-align: center;
+  font-weight: bold;
 }
 .compra{
   font-family: 'Inter', sans-serif;
-
+  background-color: #742C64;
+  font-weight: bolder;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius:2em;
+  padding: 15px;
+  box-shadow: 0px 4px rgba(0,0,0,0.3);
 }
 .btn{
   font-family: 'Inter', sans-serif;

@@ -7,7 +7,8 @@ export default function Vista1(){
         <React.Fragment>
             <Header />
             <div className="body">
-                <p>Hola Soy Juan carlos Canchachí. Mis amigos me conocen como Wayra Valentín. 
+                <p>
+                    Hola Soy Juan carlos Canchachí. Mis amigos me conocen como Wayra Valentín. 
                     Soy músico, profesor y hago instrumentos. Bienvenido a mi Tienda
                 </p>
                 <img src={tocando} className="imagenesProfe" alt="WayraTocando" />
@@ -17,7 +18,7 @@ export default function Vista1(){
                     El material puede ser bambú o pbc ¿Qué esperas?
                 </p>
                 <button type="button" className="compra">
-                    <span className="visually-hidden">Compra el tuyo Aquí </span>
+                    <span className="visually-hidden">¡Compra ya!</span>
                 </button>    
             </div>
             <Footer />
