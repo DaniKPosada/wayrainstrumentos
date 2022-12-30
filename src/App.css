@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap'); 
-
+/*Vista 1*/
 .header{
   background-image: url("/src/img/header.png");
   display: flex;
@@ -119,9 +119,38 @@ p {
   font-family: 'Inter', sans-serif;
 
 }
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Vista 2*/
+.scrollmenu{
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.scrollmenu::-webkit-scrollbar {
+  display: none;
+}
+.bCategoria{
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  font-weight: bolder;
+  border:2px solid black;
+  font-size: 18px;
+  border-radius:2em;
+  padding: 5px;
+}
+.bCategoria:hover {
+  background-color: black;
+  color: white;
+}
+.imagenCard{
+  width: 62px;
+  height:135px;
+}
+.card{
+  display: flex;
+  flex-direction: row;
 }
 
 @media (prefers-reduced-motion: no-preference) {

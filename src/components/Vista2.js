@@ -2,11 +2,13 @@ import React from "react";
 import Header from "./Header.js";
 import Footer from "./Footer.js"
 import Categorias from "./Categorias.js";
+import CardGrande from "./CardGrande.js";
 export default function Vista2(){
     return(
         <React.Fragment>
             <Header />
-            <Categorias/>
+            <Categorias />
+            <CardGrande />
             <Footer />
         </React.Fragment>
     );
