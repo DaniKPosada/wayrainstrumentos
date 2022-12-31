@@ -123,6 +123,7 @@ p {
 .scrollmenu{
   display: flex;
   flex-direction: row;
+  margin-top:-20px;
   overflow: auto;
   white-space: nowrap;
   -ms-overflow-style: none;  /* IE and Edge */
@@ -147,12 +148,63 @@ p {
 .imagenCard{
   width: 62px;
   height:135px;
+  border-radius:1em;
 }
 .card{
   display: flex;
   flex-direction: row;
-}
+  border:2px solid black;
+  width: 160px;
+  height: 140px;
+  border-radius:1em;
+  padding-top: 2px;
+  padding-left: 3px;
+  margin: 2px;
 
+}
+.categorias{
+  margin-top:-20px;
+  padding: 0px;
+}
+.derecha{
+  padding-left: 4px;
+}
+.afinacion, .material1, .tituloProducto{
+  font-weight: bold;
+  font-size: 15px;
+}
+.checkbox-inline, .precio{
+  font-size: 15px;
+}
+input[type=radio] {
+  display: block;
+  margin: 0 auto;
+  
+}
+.checkbox-inline{
+  display: inline-block;
+  margin-right: 5px;
+}
+.añadir{
+  position: absolute;
+  width: 30px;
+     height: 30px;
+     -moz-border-radius: 50%;
+     -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background: #742C64;
+  z-index: 1;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+}
+.añadir:hover {
+  -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

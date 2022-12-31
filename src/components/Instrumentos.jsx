@@ -1,7 +1,7 @@
 import zamponaMarimacha from "../img/zamponaMarimacha.jpeg";
 const Instrumentos=[
     {   id:0,
-        titulo: "Zampoña Basto",
+        titulo: `Zampoña\nBasto`,
         precio:180000,
         imagen:require("../img/zamponaBasto.jpeg"),
         descripcion:"Quince Tubos",
