@@ -98,23 +98,11 @@ h1{
   margin-top: -10px;;
 
 }
-
 p {
   font-family: 'Inter', bold;
   font-size:18px;
   text-align: center;
   font-weight: bold;
-}
-.compra{
-  font-family: 'Inter', sans-serif;
-  background-color: #742C64;
-  font-weight: bolder;
-  border: none;
-  color: white;
-  font-size: 18px;
-  border-radius:2em;
-  padding: 15px;
-  box-shadow: 0px 4px rgba(0,0,0,0.3);
 }
 .continua{
   font-family: 'Inter', sans-serif;
@@ -124,12 +112,18 @@ p {
   color: white;
   font-size: 16px;
   border-radius:2em;
-  padding: 15px;
+  padding: 10px;
   box-shadow: 0px 4px rgba(0,0,0,0.3);
   margin-bottom: 5px;
   width: 100%;
   display: flex;
   justify-content: space-between;
+}
+.mwa{
+    font-size: 10px;
+    margin: auto;
+    color: gray;
+    margin-left: 40px;
 }
 .btn{
   font-family: 'Inter', sans-serif;
@@ -163,15 +157,15 @@ p {
 }
 .imagenCard{
   width: 62px;
-  height:135px;
+  height:80px;
   border-radius:1em;
 }
 .card{
   display: flex;
   flex-direction: row;
   border:2px solid black;
-  width: 160px;
-  height: 140px;
+  width: 310px;
+  height: 83px;
   border-radius:1em;
   padding-top: 2px;
   padding-left: 3px;
@@ -188,6 +182,28 @@ p {
 .afinacion, .material1, .tituloProducto{
   font-weight: bold;
   font-size: 13px;
+}
+.afinacion{
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 10px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.material1,.añadir{
+    display: none;
+}
+.amv3{
+    display: flex;
+    flex-direction: row-reverse;
+    }
+.cantidad{
+    margin-left: 55px;
+    font-weight: 700;
+}
+
+.afinacion label span{
+    display:none;
 }
 .checkbox-inline, .precio{
   font-size: 13px;
@@ -221,6 +237,30 @@ input[type=radio] {
   align-content: center;
   
 }
+.quitar{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+       -moz-border-radius: 50%;
+       -webkit-border-radius: 50%;
+       border-radius: 50%;
+       background: #742C64;
+    z-index: 1;
+    margin-top: 0px;
+    margin-left: 205px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    
+  }
+  .eliminar{
+    width: 15px;
+    margin: auto;
+  }
 .añadir:hover {
   -webkit-transform: scale(1.5);
     transform: scale(1.5)

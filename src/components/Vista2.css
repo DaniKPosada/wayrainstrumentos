@@ -98,7 +98,12 @@ h1{
   margin-top: -10px;;
 
 }
-
+.cantidad{
+  display: none;
+}
+.quitar{
+  display: none;
+}
 p {
   font-family: 'Inter', bold;
   font-size:18px;

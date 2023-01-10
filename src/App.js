@@ -1,11 +1,17 @@
-import './App.css';
-//import Vista1 from './components/Vista1.js';
-import Vista2 from './components/Vista2.js';
+import { Fragment } from 'react';
+import Vista1 from './components/Vista1.js';
+import Vista3 from './components/Vista3.js';
 function App() {
   return (
-    <div className="Vista2">
-      <Vista2  />
-    </div>
+    <Fragment>
+      <div className="Vista1">
+        <Vista1  />
+      </div>
+      <div className="Vista3">
+        <Vista3  />
+      </div>
+    </Fragment>
+
   );
 }
 
